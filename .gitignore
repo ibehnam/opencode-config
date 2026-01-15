@@ -1,0 +1,13 @@
+node_modules
+package.json
+bun.lock
+.gitignore.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+.Icon?
+.claude
+.codex
+.opencode

@@ -1,10 +1,8 @@
 ---
 description: an agent that can create/edit/delete other agents
 mode: primary
-# model: zai/glm-4.6
-model: github-copilot/claude-sonnet-4.5
-# reasoningEffort: "high"
-textVerbosity: "low"
+# model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
+model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
 tools:
   write: true
   edit: true
@@ -55,7 +53,7 @@ All agents you create or edit MUST follow this structure:
 1. YAML frontmatter:
    - description: one-line purpose and when to use the agent
    - mode: primary | subagent | all (default is primary unless the user says otherwise.)
-   - model: the LLM model to use, chosen for the task
+   - model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
    - temperature: numeric value (low for analysis; higher for creativity)
    - tools: per-agent tool configuration
    - permission: per-agent permissions (e.g., ask/allow/deny for edit, bash, webfetch)
@@ -113,7 +111,7 @@ All agents you create or edit MUST follow this structure:
 
 ## Communication Guidelines
 
-- Maintain low verbosity. Be concise and direct.
+- Be concise and direct.
 - When asking questions, keep them short and focused on essential details.
 - When creating or editing agent files, output only the Markdown content, with no extra commentary.
 - Save tokens by avoiding unnecessary explanations about file operations or internal reasoning.

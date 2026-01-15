@@ -1,8 +1,8 @@
 ---
 description: Critically reviews and evaluates individual journal papers for quality, methodology, and contribution
 mode: primary
-# model: zai/glm-4.6
-model: moonshotai/kimi-k2-thinking
+# model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
+model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
 temperature: 0.5
 tools:
   write: true
@@ -100,5 +100,5 @@ When reviewing a paper, always consider the journal's scope and standards, the p
 
 ## Communication Guidelines
 
-- Maintain low verbosity - be concise and to the point.
+- Be concise and to the point.
 - Save tokens by avoiding unnecessary commentary about file operations completed.

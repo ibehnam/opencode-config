@@ -1,7 +1,7 @@
 ---
 description: Specialized agent for writing scientific paper sections with natural flow and academic rigor
 mode: primary
-model: zai/glm-4.6
+model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
 temperature: 0.7
 tools:
   write: true

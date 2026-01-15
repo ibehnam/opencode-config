@@ -1,8 +1,7 @@
 ---
 description: the go-to agent for all things related to Python
-model: anthropic/claude-sonnet-4-5
+model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
 mode: primary
-reasoningEffor: "high"
 tools:
   write: true
   edit: true

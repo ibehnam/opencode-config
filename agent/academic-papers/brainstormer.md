@@ -1,9 +1,8 @@
 ---
 description: Brainstorm with the user on scientific research ideas
 mode: primary
-# model: anthropic/claude-sonnet-4-20250514
-model: openai/gpt-5-pro
-reasoningEffor: "high"
+# model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
+model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
 tools:
   write: true
   edit: true

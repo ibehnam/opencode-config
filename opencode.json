@@ -1,5 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "plugin": [],
   "disabled_providers": [
     "openrouter",
     "togetherai",
@@ -7,8 +8,16 @@
     "groq",
     "inception",
     "perplexity",
-    "opencode"
+    "opencode",
+    "poe",
+    "huggingface",
+    "deepinfra"
   ],
+  "tui": {
+    "scroll_acceleration": {
+      "enabled": true
+    }
+  },
   "keybinds": {
     "agent_cycle": "tab",
     "agent_cycle_reverse": "shift+tab",
@@ -33,8 +42,8 @@
     "messages_redo": "<leader>r",
     "messages_toggle_conceal": "<leader>h",
     "messages_undo": "<leader>u",
-    "model_cycle_favorite": "ctrl+]",
-    "model_cycle_favorite_reverse": "ctrl+[",
+    "model_cycle_favorite": "<leader>]",
+    "model_cycle_favorite_reverse": "<leader>[",
     "model_cycle_recent": "f2",
     "model_cycle_recent_reverse": "shift+f2",
     "model_list": "<leader>m",
@@ -54,8 +63,5 @@
     "status_view": "<leader>s",
     "theme_list": "<leader>t"
   },
-  "plugin": [
-    "opencode-gemini-auth"
-  ],
   "small_model": "openai/gpt-4.1"
 }

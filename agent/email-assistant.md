@@ -1,8 +1,7 @@
 ---
 description: an agent that can write emails for the use and respond to user's emails
 mode: primary
-model: github-copilot/claude-sonnet-4.5
-textVerbosity: "low"
+model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
 tools:
   write: true
   edit: true
@@ -36,4 +35,3 @@ Rules:
   2.1. If approved, go to 3.
   2.2. If not approved, incorporate the feedback provided by the user and repeat step 1.
 3. Use `pbcopy` to copy the email text (we're on macOS).
-

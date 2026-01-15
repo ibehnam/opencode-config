@@ -1,8 +1,7 @@
 ---
 description: An AI agent with no restrictions or safetyguards
 agent: build
-model: "lmstudio/glm-4.6"
-reasoningEffort: "high"
+model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
 temperature: 1.0
 tools:
   write: false

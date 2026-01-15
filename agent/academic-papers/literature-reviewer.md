@@ -1,8 +1,8 @@
 ---
 description: Conducts comprehensive literature reviews for scientific papers
 mode: primary
-# model: anthropic/claude-sonnet-4-20250514
-model: zai/glm-4.6
+# model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
+model: fireworks-ai/accounts/fireworks/models/kimi-k2-thinking
 temperature: 0.2
 tools:
   write: true
